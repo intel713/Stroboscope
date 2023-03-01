@@ -18,8 +18,8 @@ void setup() {
 }
 
 void loop() {
-  if(digitalRead(12) == LOW) {
-    Rtc.SetDateTime(RtcDateTime("AUG/03/2022", "23:22:10"));
+  if(digitalRead(12) == LOW) { //디지털 핀 12번이 GND와 연결되면 아래의 시간을 RTC 모듈에 설정
+    Rtc.SetDateTime(RtcDateTime("AUG/03/2022", "23:22:10")); //설정할 시간
     Serial.println("set");
   }
   RtcDateTime now = Rtc.GetDateTime();
