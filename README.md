@@ -1,5 +1,5 @@
 # Stroboscope
-MOSFET으로 LED를 고속 스위칭하여 스트로보 효과를 만드는 장치<br>
+MOSFET으로 LED를 고속으로 스위칭하여 스트로보 효과를 만드는 장치<br>
 
 # 사용 부품
 1 * `Arduino Nano`<br>
